@@ -25,46 +25,6 @@ window.CAL_DATA = {
    "desc": "IMAX·4DX 한정 포스터 증정. 영화관마다 굿즈가 다르다."
   },
   {
-   "slug": "basketcase-뉴발란스",
-   "n": "Basketcase × 뉴발란스",
-   "c": "패션",
-   "w": "뉴발란스 글로벌",
-   "p": "약 18만원 예상",
-   "desc": "NB 글로벌 발매 · 풋볼컬처",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/basketcase-뉴발란스/card1.jpg",
-   "d": "2026-06-19"
-  },
-  {
-   "slug": "noah-timex",
-   "n": "노아 × 타이맥스",
-   "c": "패션",
-   "w": "무신사 단독",
-   "p": "365,000원",
-   "desc": "블랙/골드·브라운/스틸 2종. 타원형 케이스에 문페이즈 다이얼.",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/noah-timex/card1.jpg",
-   "d": "2026-06-19"
-  },
-  {
-   "slug": "thisisneverthat-gshock",
-   "n": "디스이즈네버댓 × 지샥",
-   "c": "기타",
-   "w": "디스이즈네버댓 공식몰",
-   "p": "약 18만원 예상",
-   "desc": "디스이즈네버댓 공식몰",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/thisisneverthat-gshock/card1.jpg",
-   "d": "2026-06-19"
-  },
-  {
-   "slug": "uniqlo-risso",
-   "n": "유니클로 × 프란체스코 리소",
-   "c": "패션",
-   "w": "유니클로 매장·공식 온라인",
-   "p": "티셔츠 19,900원 · 블라우스 29,900원 · 원피스 49,900원",
-   "desc": "전 마르니 디렉터 프란체스코 리소와의 2026 써머 캡슐",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/uniqlo-risso/card1.jpg",
-   "d": "2026-06-19"
-  },
-  {
    "d": "2026-06-21",
    "n": "포트나이트 × 손흥민",
    "c": "게임",
@@ -103,14 +63,6 @@ window.CAL_DATA = {
    "w": "",
    "p": "",
    "desc": "여성 디자이너 JAIDE의 조던 협업."
-  },
-  {
-   "d": "2026-06-27",
-   "n": "CGV × KBO",
-   "c": "기타",
-   "w": "CGV",
-   "p": "",
-   "desc": "KBO 시즌 팝콘 버킷·구단 굿즈 콜라보."
   },
   {
    "d": "2026-06-27",
@@ -214,6 +166,26 @@ window.CAL_DATA = {
  ],
  "ONGOING": [
   {
+   "slug": "uniqlo-risso",
+   "n": "유니클로 × 프란체스코 리소",
+   "c": "패션",
+   "w": "유니클로 매장·공식 온라인",
+   "p": "티셔츠 19,900원 · 블라우스 29,900원 · 원피스 49,900원",
+   "desc": "전 마르니 디렉터 프란체스코 리소와의 2026 써머 캡슐",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/uniqlo-risso/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "thisisneverthat-gshock",
+   "n": "디스이즈네버댓 × 지샥",
+   "c": "기타",
+   "w": "디스이즈네버댓 공식몰",
+   "p": "약 18만원 예상",
+   "desc": "디스이즈네버댓 공식몰",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/thisisneverthat-gshock/card1.jpg",
+   "till": "발매중"
+  },
+  {
    "slug": "t1-zanmang-loopy",
    "n": "T1 × 잔망루피",
    "c": "IP/캐릭터",
@@ -251,6 +223,16 @@ window.CAL_DATA = {
    "p": "해외 현지가 (국내 판매 없음)",
    "desc": "⚠️ 국내 미발매 · 해외 한정 (스톡홀름·런던·뉴욕·파리 오프라인)",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/our-legacy-work-shop-stussy/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "noah-timex",
+   "n": "노아 × 타이맥스",
+   "c": "패션",
+   "w": "무신사 단독",
+   "p": "365,000원",
+   "desc": "블랙/골드·브라운/스틸 2종. 타원형 케이스에 문페이즈 다이얼.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/noah-timex/card1.jpg",
    "till": "발매중"
   },
   {
@@ -301,6 +283,16 @@ window.CAL_DATA = {
    "p": "가죽 재킷 1,420,000원",
    "desc": "정국 직접 디자인 · 20피스 캡슐",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/calvinklein-jungkook/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "basketcase-뉴발란스",
+   "n": "Basketcase × 뉴발란스",
+   "c": "패션",
+   "w": "뉴발란스 글로벌",
+   "p": "약 18만원 예상",
+   "desc": "NB 글로벌 발매 · 풋볼컬처",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/basketcase-뉴발란스/card1.jpg",
    "till": "발매중"
   },
   {
