@@ -83,12 +83,14 @@ window.CAL_DATA = {
    "d": "2026-06-27"
   },
   {
-   "d": "2026-06-30",
-   "n": "메가박스 × 주술회전",
-   "c": "IP/캐릭터",
-   "w": "메가박스",
-   "p": "",
-   "desc": "주술회전 사멸회유 편 개봉 기념 굿즈."
+   "slug": "wigglewiggle-pokemon",
+   "n": "Wiggle Wiggle × Pokemon",
+   "c": "패션",
+   "w": "위글위글 공식몰",
+   "p": "후드 파자마 세트 89,000원 / 테리 홈 슬리퍼 32,000원",
+   "desc": "피카츄·이브이·잠만보·메타몽 디자인 13종",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/wigglewiggle-pokemon/card1.jpg",
+   "d": "2026-06-29"
   },
   {
    "d": "2026-07-01",
@@ -166,6 +168,26 @@ window.CAL_DATA = {
  ],
  "ONGOING": [
   {
+   "slug": "메가박스-주술회전",
+   "n": "메가박스 × 주술회전",
+   "c": "IP/캐릭터",
+   "w": "전국 메가박스 25개 지점 현장 판매",
+   "p": "랜덤 피규어 박스(5종) 47,900원 / 실리콘 파우치(3종) 각 24,900원",
+   "desc": "메가박스 현장 한정",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/메가박스-주술회전/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "도프제이슨-패플서",
+   "n": "도프제이슨 × 패플서",
+   "c": "패션",
+   "w": "무신사 단독",
+   "p": "174,000원 (데님 팬츠 149,000원)",
+   "desc": "무신사 단독",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/도프제이슨-패플서/card1.jpg",
+   "till": "발매중"
+  },
+  {
    "slug": "uniqlo-risso",
    "n": "유니클로 × 프란체스코 리소",
    "c": "패션",
@@ -173,6 +195,16 @@ window.CAL_DATA = {
    "p": "티셔츠 19,900원 · 블라우스 29,900원 · 원피스 49,900원",
    "desc": "전 마르니 디렉터 프란체스코 리소와의 2026 써머 캡슐",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/uniqlo-risso/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "undefeated-nike",
+   "n": "언디피티드 × 나이키",
+   "c": "패션",
+   "w": "언디피티드 공식몰 단독",
+   "p": "약 4만~14만원 예상",
+   "desc": "UACTP 트레이닝 캡슐 NRG_26",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/undefeated-nike/card1.jpg",
    "till": "발매중"
   },
   {
@@ -216,6 +248,16 @@ window.CAL_DATA = {
    "till": "발매중"
   },
   {
+   "slug": "paf-onrunning",
+   "n": "포스트 아카이브 팩션 × 온",
+   "c": "패션",
+   "w": "PAF·온 공식 및 셀렉트 리테일",
+   "p": "약 43만원 예상",
+   "desc": "엠버/페블·화이트/게일 두 색상의 레이싱 러너.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/paf-onrunning/card1.jpg",
+   "till": "발매중"
+  },
+  {
    "slug": "our-legacy-work-shop-stussy",
    "n": "Our Legacy Work Shop × Stüssy",
    "c": "패션",
@@ -246,6 +288,16 @@ window.CAL_DATA = {
    "till": "발매중"
   },
   {
+   "slug": "kith-bugaboo",
+   "n": "Kith × Bugaboo",
+   "c": "기타",
+   "w": "키스 먼데이 프로그램 (뉴욕·런던·파리·도쿄)",
+   "p": "가격 예정",
+   "desc": "부가부 버터플라이 2 트래블 유모차에 키스 모노그램 캐노피·시트, 키스 앤 킨 스크립트 디테일. 블랙 모노그램 기저귀가방도 함께.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/kith-bugaboo/card1.jpg",
+   "till": "발매중"
+  },
+  {
    "slug": "humanmade-verdy",
    "n": "Human Made × Verdy",
    "c": "패션",
@@ -273,6 +325,26 @@ window.CAL_DATA = {
    "p": "플러그수트 에어팟 맥스 케이스 약 17만원 예상 · A.T. 필드 무선 충전기 약 11만원 예상 · 사도 메탈 체인 스트랩 약 10만원 예상 · 사도 그립 스탠드 약 9만원 예상",
    "desc": "에반게리온 30주년 두 번째 테크 액세서리 컬렉션",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/evangelion-casetify/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "disney-peace-minus-one",
+   "n": "Disney × 피스마이너스원",
+   "c": "기타",
+   "w": "서울 성수동 팝업스토어",
+   "p": "예정",
+   "desc": "지드래곤의 피스마이너스원이 디즈니·픽사 토이 스토리와 만났습니다. 우디·버즈·제시·렉스·포키 등 캐릭터에 피스마이너스원 데이지 시그니처를 더한 피규어·플러시·패션·모바일 액세서리 70여 종. CASETiFY 테크 라인은 6/24 선발매, 서울·도쿄·홍콩·타이페이·상하이 등 아시아 10여 개 도시 동시 전개.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/disney-peace-minus-one/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "chimchakman-sanrio",
+   "n": "침착맨 × 한교동",
+   "c": "패션",
+   "w": "무신사 단독 드롭",
+   "p": "반팔 41,000원 · 모자 32,000원 · 키링 11,000원",
+   "desc": "침착맨이 그토록 외치던 한교동과 드디어 만났습니다. 티셔츠 4종, 한정판 침착 모자, 별·구름·달 아크릴 키링까지.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/chimchakman-sanrio/card1.jpg",
    "till": "발매중"
   },
   {
