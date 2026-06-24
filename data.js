@@ -50,27 +50,31 @@ window.CAL_DATA = {
   },
   {
    "d": "2026-06-27",
-   "n": "BAPE × 아디다스",
-   "c": "스니커",
-   "w": "",
-   "p": "",
-   "desc": "BAPE 카모 × 아디다스 실루엣. 발매 임박."
-  },
-  {
-   "d": "2026-06-27",
-   "n": "JAIDE × 조던",
-   "c": "스니커",
-   "w": "",
-   "p": "",
-   "desc": "여성 디자이너 JAIDE의 조던 협업."
-  },
-  {
-   "d": "2026-06-27",
    "n": "귀멸의 칼날 전집중展 × 다날",
    "c": "IP/캐릭터",
    "w": "성수 에스팩토리",
    "p": "",
    "desc": "몰입형 체험 전시 + 한정 굿즈. 6/27~9/27."
+  },
+  {
+   "slug": "bape-adidas",
+   "n": "BAPE × 아디다스",
+   "c": "패션",
+   "w": "아디다스 앱·컨펌드 단독",
+   "p": "약 27만원 예상 (정가 200달러)",
+   "desc": "블루/그린 · 블루/핑크 2종",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/bape-adidas/card1.jpg",
+   "d": "2026-06-27"
+  },
+  {
+   "slug": "jaide-jordan",
+   "n": "JAIDE × 조던",
+   "c": "패션",
+   "w": "JAIDE 단독 (이후 SNKRS·리테일 확대)",
+   "p": "약 28만원 예상 (정가 205달러)",
+   "desc": "에어조던 11 역사상 최초 콜라보, 여성 라인.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/jaide-jordan/card1.jpg",
+   "d": "2026-06-27"
   },
   {
    "slug": "아식스-세실리에반센",
@@ -108,6 +112,16 @@ window.CAL_DATA = {
    "p": "",
    "pop": 1,
    "desc": "K리그 × 디즈니 토이스토리5 부산 팝업. 포토존·한정 굿즈."
+  },
+  {
+   "slug": "amamaniere-nike",
+   "n": "아마마니에르 × 나이키",
+   "c": "패션",
+   "w": "나이키 SNKRS",
+   "p": "약 21만원 예상 (정가 150달러)",
+   "desc": "While You Were Sleeping 6색 팩",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/amamaniere-nike/card1.jpg",
+   "d": "2026-07-01"
   },
   {
    "d": "2026-07-02",
