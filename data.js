@@ -87,6 +87,16 @@ window.CAL_DATA = {
    "d": "2026-06-27"
   },
   {
+   "slug": "kimetsu-danal",
+   "n": "귀멸의 칼날 전집중展 × 다날엔터테인먼트",
+   "c": "기타",
+   "w": "성수 에스팩토리 D동 1F",
+   "p": "",
+   "desc": "귀멸의 칼날 전집중展",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/kimetsu-danal/card1.jpg",
+   "d": "2026-06-27"
+  },
+  {
    "slug": "wigglewiggle-pokemon",
    "n": "Wiggle Wiggle × Pokemon",
    "c": "패션",
