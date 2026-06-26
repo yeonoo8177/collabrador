@@ -59,6 +59,16 @@ window.CAL_DATA = {
    "d": "2026-06-26"
   },
   {
+   "slug": "fcseoul-pokemon",
+   "n": "FC서울 × 포켓몬",
+   "c": "기타",
+   "w": "FC서울 공식몰",
+   "p": "유니폼 109,000원 · 피카츄 반팔티 39,000원 · 니트 머플러 29,000원",
+   "desc": "홈/어웨이 유니폼부터 피카츄 짐쌕·인형키링·쿨타월·미니부채까지. 포켓몬 30주년 기념 컬래버.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/fcseoul-pokemon/card1.jpg",
+   "d": "2026-06-26"
+  },
+  {
    "d": "2026-06-27",
    "n": "귀멸의 칼날 전집중展 × 다날",
    "c": "IP/캐릭터",
@@ -170,6 +180,16 @@ window.CAL_DATA = {
    "w": "더벤티 전국",
    "p": "",
    "desc": "인기 게임 ZZZ × 더벤티 음료·컵 콜라보."
+  },
+  {
+   "slug": "emptybehavior-asics",
+   "n": "엠프티 비헤이비어 × 아식스",
+   "c": "패션",
+   "w": "아식스 공식몰·셀렉트 리테일",
+   "p": "약 21만원 예상 (해외 정가 135달러)",
+   "desc": "레슬링·발레에서 가져온 러플 스트라이프 로우 프로파일 스니커",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/emptybehavior-asics/card1.jpg",
+   "d": "2026-07-02"
   },
   {
    "d": "2026-07-15",
@@ -369,6 +389,16 @@ window.CAL_DATA = {
    "p": "플러그수트 에어팟 맥스 케이스 약 17만원 예상 · A.T. 필드 무선 충전기 약 11만원 예상 · 사도 메탈 체인 스트랩 약 10만원 예상 · 사도 그립 스탠드 약 9만원 예상",
    "desc": "에반게리온 30주년 두 번째 테크 액세서리 컬렉션",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/evangelion-casetify/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "enhypen-epiphone",
+   "n": "ENHYPEN 제이 × 에피폰",
+   "c": "기타",
+   "w": "위버스샵 단독 (국내)",
+   "p": "예정",
+   "desc": "위버스샵 단독",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/enhypen-epiphone/card1.jpg",
    "till": "발매중"
   },
   {
