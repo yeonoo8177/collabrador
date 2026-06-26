@@ -192,16 +192,6 @@ window.CAL_DATA = {
    "till": "발매중"
   },
   {
-   "slug": "도프제이슨-패플서",
-   "n": "도프제이슨 × 패플서",
-   "c": "패션",
-   "w": "무신사 단독",
-   "p": "174,000원 (데님 팬츠 149,000원)",
-   "desc": "무신사 단독",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/도프제이슨-패플서/card1.jpg",
-   "till": "발매중"
-  },
-  {
    "slug": "uniqlo-risso",
    "n": "유니클로 × 프란체스코 리소",
    "c": "패션",
