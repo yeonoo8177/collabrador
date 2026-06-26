@@ -49,6 +49,16 @@ window.CAL_DATA = {
    "desc": "루시·레베카 콜라보 캐릭터/이벤트 인게임 업데이트."
   },
   {
+   "slug": "converse-minions",
+   "n": "컨버스 × 미니언즈",
+   "c": "패션",
+   "w": "컨버스 공식몰",
+   "p": "척 70 블루 129,000원 · 척테일러 올스타 89,000~105,000원 · 키즈 69,000원 · 이지 온 65,000원 · 티셔츠 55,000원",
+   "desc": "데스피커블 미 4 개봉 맞춰 나온 미니언즈 캡슐. 척테일러엔 미니언즈 그래픽과 노란 아웃솔, 척 70은 데님 어퍼에 빅풋 미니언, 키즈·이지 온까지 사이즈가 넓다.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/converse-minions/card1.jpg",
+   "d": "2026-06-26"
+  },
+  {
    "d": "2026-06-27",
    "n": "귀멸의 칼날 전집중展 × 다날",
    "c": "IP/캐릭터",
@@ -77,16 +87,6 @@ window.CAL_DATA = {
    "d": "2026-06-27"
   },
   {
-   "slug": "아식스-세실리에반센",
-   "n": "아식스 × 세실리에반센",
-   "c": "패션",
-   "w": "무신사스토어 성수 단독",
-   "p": "209,000원 (3컬러)",
-   "desc": "무신사스토어 성수 단독",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/아식스-세실리에반센/card1.jpg",
-   "d": "2026-06-27"
-  },
-  {
    "slug": "kimetsu-danal",
    "n": "귀멸의 칼날 전집중展 × 다날엔터테인먼트",
    "c": "기타",
@@ -94,6 +94,36 @@ window.CAL_DATA = {
    "p": "",
    "desc": "귀멸의 칼날 전집중展",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/kimetsu-danal/card1.jpg",
+   "d": "2026-06-27"
+  },
+  {
+   "slug": "sashikogals-newera",
+   "n": "사시코 갈스 × 뉴에라",
+   "c": "패션",
+   "w": "뉴에라 온라인스토어 / 긴자 한정",
+   "p": "59FIFTY 약 92~102만원 예상 · 9TWENTY 약 36만원 예상",
+   "desc": "장인이 한 땀씩 손바느질한 MLB 캡",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/sashikogals-newera/card1.jpg",
+   "d": "2026-06-27"
+  },
+  {
+   "slug": "supreme-yuketen",
+   "n": "슈프림 × 유케텐",
+   "c": "패션",
+   "w": "슈프림 (아시아)",
+   "p": "약 48만원 예상",
+   "desc": "베지터블 태닝 레더 + 비브람 솔, 멕시코 수공예",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/supreme-yuketen/card1.jpg",
+   "d": "2026-06-27"
+  },
+  {
+   "slug": "아식스-세실리에반센",
+   "n": "아식스 × 세실리에반센",
+   "c": "패션",
+   "w": "무신사스토어 성수 단독",
+   "p": "209,000원 (3컬러)",
+   "desc": "무신사스토어 성수 단독",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/아식스-세실리에반센/card1.jpg",
    "d": "2026-06-27"
   },
   {
