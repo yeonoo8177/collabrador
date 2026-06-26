@@ -49,26 +49,6 @@ window.CAL_DATA = {
    "desc": "루시·레베카 콜라보 캐릭터/이벤트 인게임 업데이트."
   },
   {
-   "slug": "converse-minions",
-   "n": "컨버스 × 미니언즈",
-   "c": "패션",
-   "w": "컨버스 공식몰",
-   "p": "척 70 블루 129,000원 · 척테일러 올스타 89,000~105,000원 · 키즈 69,000원 · 이지 온 65,000원 · 티셔츠 55,000원",
-   "desc": "데스피커블 미 4 개봉 맞춰 나온 미니언즈 캡슐. 척테일러엔 미니언즈 그래픽과 노란 아웃솔, 척 70은 데님 어퍼에 빅풋 미니언, 키즈·이지 온까지 사이즈가 넓다.",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/converse-minions/card1.jpg",
-   "d": "2026-06-26"
-  },
-  {
-   "slug": "fcseoul-pokemon",
-   "n": "FC서울 × 포켓몬",
-   "c": "기타",
-   "w": "FC서울 공식몰",
-   "p": "유니폼 109,000원 · 피카츄 반팔티 39,000원 · 니트 머플러 29,000원",
-   "desc": "홈/어웨이 유니폼부터 피카츄 짐쌕·인형키링·쿨타월·미니부채까지. 포켓몬 30주년 기념 컬래버.",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/fcseoul-pokemon/card1.jpg",
-   "d": "2026-06-26"
-  },
-  {
    "d": "2026-06-27",
    "n": "귀멸의 칼날 전집중展 × 다날",
    "c": "IP/캐릭터",
@@ -382,6 +362,16 @@ window.CAL_DATA = {
    "till": "발매중"
   },
   {
+   "slug": "fcseoul-pokemon",
+   "n": "FC서울 × 포켓몬",
+   "c": "기타",
+   "w": "FC서울 공식몰",
+   "p": "유니폼 109,000원 · 피카츄 반팔티 39,000원 · 니트 머플러 29,000원",
+   "desc": "홈/어웨이 유니폼부터 피카츄 짐쌕·인형키링·쿨타월·미니부채까지. 포켓몬 30주년 기념 컬래버.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/fcseoul-pokemon/card1.jpg",
+   "till": "발매중"
+  },
+  {
    "slug": "evangelion-casetify",
    "n": "에반게리온 × 케이스티파이",
    "c": "기타",
@@ -409,6 +399,16 @@ window.CAL_DATA = {
    "p": "예정",
    "desc": "지드래곤의 피스마이너스원이 디즈니·픽사 토이 스토리와 만났습니다. 우디·버즈·제시·렉스·포키 등 캐릭터에 피스마이너스원 데이지 시그니처를 더한 피규어·플러시·패션·모바일 액세서리 70여 종. CASETiFY 테크 라인은 6/24 선발매, 서울·도쿄·홍콩·타이페이·상하이 등 아시아 10여 개 도시 동시 전개.",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/disney-peace-minus-one/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "converse-minions",
+   "n": "컨버스 × 미니언즈",
+   "c": "패션",
+   "w": "컨버스 공식몰",
+   "p": "척 70 블루 129,000원 · 척테일러 올스타 89,000~105,000원 · 키즈 69,000원 · 이지 온 65,000원 · 티셔츠 55,000원",
+   "desc": "데스피커블 미 4 개봉 맞춰 나온 미니언즈 캡슐. 척테일러엔 미니언즈 그래픽과 노란 아웃솔, 척 70은 데님 어퍼에 빅풋 미니언, 키즈·이지 온까지 사이즈가 넓다.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/converse-minions/card1.jpg",
    "till": "발매중"
   },
   {
