@@ -292,6 +292,16 @@ window.CAL_DATA = {
    "till": "발매중"
   },
   {
+   "slug": "spao-nct-dream",
+   "n": "SPAO × NCT DREAM",
+   "c": "패션",
+   "w": "스파오·무신사",
+   "p": "39,900원",
+   "desc": "멤버가 디자인한 캐릭터로 만든 반팔 파자마 세트 6종",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/spao-nct-dream/card1.jpg",
+   "till": "발매중"
+  },
+  {
    "slug": "paf-onrunning",
    "n": "포스트 아카이브 팩션 × 온",
    "c": "패션",
@@ -329,6 +339,16 @@ window.CAL_DATA = {
    "p": "티셔츠 약 9만원 예상 ~ 카트백 약 61만원 예상",
    "desc": "조각가 다니엘 아샴의 침식·균열 미학을 골프웨어로 옮긴 컬렉션. 스텔스 카모와 아샴 그린으로 코스부터 일상까지.",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/malbon-arsham/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "lotteaquarium-pingu",
+   "n": "롯데월드 아쿠아리움 × 핑구",
+   "c": "기타",
+   "w": "롯데월드 아쿠아리움 (잠실)",
+   "p": "마린룩 한정 굿즈(금속 배지 2종·랜덤 키캡 키링 3종·스티커)·핑구 테마 디저트 판매, 가격 예정",
+   "desc": "롯데월드 아쿠아리움 (잠실)",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/lotteaquarium-pingu/card1.jpg",
    "till": "발매중"
   },
   {
@@ -392,6 +412,16 @@ window.CAL_DATA = {
    "till": "발매중"
   },
   {
+   "slug": "dove-miffy",
+   "n": "도브 × 미피",
+   "c": "기타",
+   "w": "올리브영 단독",
+   "p": "바디스크럽 298g 정가 17,900원 (6월 올영세일 할인) · 포밍 바디워시 540g 가격 예정",
+   "desc": "🎁 미피 굿즈 증정 (스파츌라/스푼, 스크런치)",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/dove-miffy/card1.jpg",
+   "till": "발매중"
+  },
+  {
    "slug": "disney-peace-minus-one",
    "n": "Disney × 피스마이너스원",
    "c": "기타",
@@ -399,6 +429,16 @@ window.CAL_DATA = {
    "p": "예정",
    "desc": "지드래곤의 피스마이너스원이 디즈니·픽사 토이 스토리와 만났습니다. 우디·버즈·제시·렉스·포키 등 캐릭터에 피스마이너스원 데이지 시그니처를 더한 피규어·플러시·패션·모바일 액세서리 70여 종. CASETiFY 테크 라인은 6/24 선발매, 서울·도쿄·홍콩·타이페이·상하이 등 아시아 10여 개 도시 동시 전개.",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/disney-peace-minus-one/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "detectiveconan-animate",
+   "n": "명탐정 코난 × 애니메이트 카페",
+   "c": "기타",
+   "w": "애니메이트 카페 잠실롯데점",
+   "p": "콜라보 드링크 7,000원대 · 미니 아크릴 스탠드 12,000원 · 아크릴 코스터(추가) 7,500원",
+   "desc": "🎁 금액별 특전: 4만원당 금박 브로마이드(전 20종) · 5만원당 추첨 미니 등신대(전 10종) · 그래떼 메뉴 구매 시 한국 한정 포토카드(전 20종)",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/detectiveconan-animate/card1.jpg",
    "till": "발매중"
   },
   {
@@ -439,6 +479,16 @@ window.CAL_DATA = {
    "p": "약 18만원 예상",
    "desc": "NB 글로벌 발매 · 풋볼컬처",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/basketcase-뉴발란스/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "aape-baby-milo",
+   "n": "AAPE × 베이비 마일로",
+   "c": "패션",
+   "w": "AAPE 공식몰·무신사",
+   "p": "",
+   "desc": "그래피티 낙서 카모를 입힌 성인·키즈 패밀리 라인. 베이비 마일로 3D 원숭이 카모 크로스백, 카모 백팩, 그래피티 카모 후디·스웻, 패밀리 반팔 티셔츠까지. 한국은 순차 입고 예정입니다.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/aape-baby-milo/card1.jpg",
    "till": "발매중"
   },
   {
