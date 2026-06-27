@@ -57,66 +57,6 @@ window.CAL_DATA = {
    "desc": "몰입형 체험 전시 + 한정 굿즈. 6/27~9/27."
   },
   {
-   "slug": "bape-adidas",
-   "n": "BAPE × 아디다스",
-   "c": "패션",
-   "w": "아디다스 앱·컨펌드 단독",
-   "p": "약 27만원 예상 (정가 200달러)",
-   "desc": "블루/그린 · 블루/핑크 2종",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/bape-adidas/card1.jpg",
-   "d": "2026-06-27"
-  },
-  {
-   "slug": "jaide-jordan",
-   "n": "JAIDE × 조던",
-   "c": "패션",
-   "w": "JAIDE 단독 (이후 SNKRS·리테일 확대)",
-   "p": "약 28만원 예상 (정가 205달러)",
-   "desc": "에어조던 11 역사상 최초 콜라보, 여성 라인.",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/jaide-jordan/card1.jpg",
-   "d": "2026-06-27"
-  },
-  {
-   "slug": "kimetsu-danal",
-   "n": "귀멸의 칼날 전집중展 × 다날엔터테인먼트",
-   "c": "기타",
-   "w": "성수 에스팩토리 D동 1F",
-   "p": "",
-   "desc": "귀멸의 칼날 전집중展",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/kimetsu-danal/card1.jpg",
-   "d": "2026-06-27"
-  },
-  {
-   "slug": "sashikogals-newera",
-   "n": "사시코 갈스 × 뉴에라",
-   "c": "패션",
-   "w": "뉴에라 온라인스토어 / 긴자 한정",
-   "p": "59FIFTY 약 92~102만원 예상 · 9TWENTY 약 36만원 예상",
-   "desc": "장인이 한 땀씩 손바느질한 MLB 캡",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/sashikogals-newera/card1.jpg",
-   "d": "2026-06-27"
-  },
-  {
-   "slug": "supreme-yuketen",
-   "n": "슈프림 × 유케텐",
-   "c": "패션",
-   "w": "슈프림 (아시아)",
-   "p": "약 48만원 예상",
-   "desc": "베지터블 태닝 레더 + 비브람 솔, 멕시코 수공예",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/supreme-yuketen/card1.jpg",
-   "d": "2026-06-27"
-  },
-  {
-   "slug": "아식스-세실리에반센",
-   "n": "아식스 × 세실리에반센",
-   "c": "패션",
-   "w": "무신사스토어 성수 단독",
-   "p": "209,000원 (3컬러)",
-   "desc": "무신사스토어 성수 단독",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/아식스-세실리에반센/card1.jpg",
-   "d": "2026-06-27"
-  },
-  {
    "slug": "wigglewiggle-pokemon",
    "n": "Wiggle Wiggle × Pokemon",
    "c": "패션",
@@ -222,6 +162,16 @@ window.CAL_DATA = {
  ],
  "ONGOING": [
   {
+   "slug": "아식스-세실리에반센",
+   "n": "아식스 × 세실리에반센",
+   "c": "패션",
+   "w": "무신사스토어 성수 단독",
+   "p": "209,000원 (3컬러)",
+   "desc": "무신사스토어 성수 단독",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/아식스-세실리에반센/card1.jpg",
+   "till": "발매중"
+  },
+  {
    "slug": "메가박스-주술회전",
    "n": "메가박스 × 주술회전",
    "c": "IP/캐릭터",
@@ -282,6 +232,16 @@ window.CAL_DATA = {
    "till": "발매중"
   },
   {
+   "slug": "supreme-yuketen",
+   "n": "슈프림 × 유케텐",
+   "c": "패션",
+   "w": "슈프림 (아시아)",
+   "p": "약 48만원 예상",
+   "desc": "베지터블 태닝 레더 + 비브람 솔, 멕시코 수공예",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/supreme-yuketen/card1.jpg",
+   "till": "발매중"
+  },
+  {
    "slug": "stoneisland-뉴발란스",
    "n": "Stone Island × 뉴발란스",
    "c": "패션",
@@ -299,6 +259,16 @@ window.CAL_DATA = {
    "p": "39,900원",
    "desc": "멤버가 디자인한 캐릭터로 만든 반팔 파자마 세트 6종",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/spao-nct-dream/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "sashikogals-newera",
+   "n": "사시코 갈스 × 뉴에라",
+   "c": "패션",
+   "w": "뉴에라 온라인스토어 / 긴자 한정",
+   "p": "59FIFTY 약 92~102만원 예상 · 9TWENTY 약 36만원 예상",
+   "desc": "장인이 한 땀씩 손바느질한 MLB 캡",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/sashikogals-newera/card1.jpg",
    "till": "발매중"
   },
   {
@@ -359,6 +329,26 @@ window.CAL_DATA = {
    "p": "가격 예정",
    "desc": "부가부 버터플라이 2 트래블 유모차에 키스 모노그램 캐노피·시트, 키스 앤 킨 스크립트 디테일. 블랙 모노그램 기저귀가방도 함께.",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/kith-bugaboo/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "kimetsu-danal",
+   "n": "귀멸의 칼날 전집중展 × 다날엔터테인먼트",
+   "c": "기타",
+   "w": "성수 에스팩토리 D동 1F",
+   "p": "",
+   "desc": "귀멸의 칼날 전집중展",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/kimetsu-danal/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "jaide-jordan",
+   "n": "JAIDE × 조던",
+   "c": "패션",
+   "w": "JAIDE 단독 (이후 SNKRS·리테일 확대)",
+   "p": "약 28만원 예상 (정가 205달러)",
+   "desc": "에어조던 11 역사상 최초 콜라보, 여성 라인.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/jaide-jordan/card1.jpg",
    "till": "발매중"
   },
   {
@@ -479,6 +469,16 @@ window.CAL_DATA = {
    "p": "약 18만원 예상",
    "desc": "NB 글로벌 발매 · 풋볼컬처",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/basketcase-뉴발란스/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "bape-adidas",
+   "n": "BAPE × 아디다스",
+   "c": "패션",
+   "w": "아디다스 앱·컨펌드 단독",
+   "p": "약 27만원 예상 (정가 200달러)",
+   "desc": "블루/그린 · 블루/핑크 2종",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/bape-adidas/card1.jpg",
    "till": "발매중"
   },
   {
