@@ -112,6 +112,16 @@ window.CAL_DATA = {
    "d": "2026-07-02"
   },
   {
+   "slug": "maru-thehyundai",
+   "n": "마루는강쥐 × 더현대서울",
+   "c": "기타",
+   "w": "더현대 서울 B2 아이코닉스퀘어",
+   "p": "인형키링 자장자장 마루는 22,000원 · 증사키링 18,000원 · 랜덤 미니 피규어 키링 단품 16,500원",
+   "desc": "더현대 서울 B2 아이코닉스퀘어",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/maru-thehyundai/card1.jpg",
+   "d": "2026-07-02"
+  },
+  {
    "d": "2026-07-15",
    "n": "유니클로 UT × YOASOBI",
    "c": "IP/캐릭터",
@@ -479,6 +489,16 @@ window.CAL_DATA = {
    "p": "약 27만원 예상 (정가 200달러)",
    "desc": "블루/그린 · 블루/핑크 2종",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/bape-adidas/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "ald-newbalance-gator",
+   "n": "에메 레온 도레 × 뉴발란스",
+   "c": "패션",
+   "w": "ALD 단독 — 국내 정식 판매 없음 (직구·리셀)",
+   "p": "약 18만원 예상",
+   "desc": "ALD의 첫 게이터 협업. 빈티지 러너 실루엣에 헤어리 스웨이드와 메시, 블랙 러그 아웃솔. 힐엔 ALD 퀸즈 크레스트, 인솔엔 AIMÉ LEON DORE 각인.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/ald-newbalance-gator/card1.jpg",
    "till": "발매중"
   },
   {
