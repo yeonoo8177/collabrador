@@ -282,6 +282,16 @@ window.CAL_DATA = {
    "till": "발매중"
   },
   {
+   "slug": "pharrell-adidas-vario",
+   "n": "퍼렐 × 아디다스",
+   "c": "스니커",
+   "w": "adidas 공식 (국내는 직구·리셀 위주, 정식발매 미확인)",
+   "p": "약 19만원 예상",
+   "desc": "끈 없이 발을 감싸는 풋랩 저상 슬립온. 스웨이드 어퍼에 흰 3선이 또렷하게 대비된다. 블루(KJ9380)·블랙(KJ0953) 2종.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/pharrell-adidas-vario/card1.jpg",
+   "till": "발매중"
+  },
+  {
    "slug": "paf-onrunning",
    "n": "포스트 아카이브 팩션 × 온",
    "c": "패션",
@@ -459,6 +469,16 @@ window.CAL_DATA = {
    "p": "반팔 41,000원 · 모자 32,000원 · 키링 11,000원",
    "desc": "침착맨이 그토록 외치던 한교동과 드디어 만났습니다. 티셔츠 4종, 한정판 침착 모자, 별·구름·달 아크릴 키링까지.",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/chimchakman-sanrio/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "casetify-pmo-toystory",
+   "n": "토이 스토리 × 피스마이너스원 × CASETiFY",
+   "c": "기타",
+   "w": "CASETiFY 한국 스토어 · 콜랍앱 · 국내 15개 매장 · 무신사 일부 · 성수 팝업 7/1",
+   "p": "가격 예정",
+   "desc": "디즈니 첫 K-pop 아티스트 협업 — GD 피스마이너스원의 데이지 모티브에 우디·버즈·제시·렉스·햄·슬링키·에이리언이 만났습니다.",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/casetify-pmo-toystory/card1.jpg",
    "till": "발매중"
   },
   {
