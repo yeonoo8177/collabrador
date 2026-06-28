@@ -95,6 +95,36 @@
   .modal-cta .buy{border:1.5px solid var(--ink); color:var(--ink);}
   .modal-x{position:absolute; top:18px; right:20px; width:38px; height:38px; border-radius:999px; background:rgba(255,255,255,.9); border:none; font-size:20px; cursor:pointer; z-index:51;}
   @media(max-width:640px){ .hero img{height:96px} .hero-txt h1{font-size:32px} .day{grid-template-columns:74px 1fr} .day-date .d{font-size:24px} }
+
+  /* month grid calendar */
+  .gridhead{display:flex; align-items:center; justify-content:center; gap:16px; padding:6px 0 20px;}
+  .gridhead button{width:40px; height:40px; border-radius:999px; border:2px solid var(--ink); background:#fff; font-size:19px; cursor:pointer; line-height:1; color:var(--ink);}
+  .gridhead button:hover{background:var(--ink); color:#fff;}
+  .gridhead .mlabel{font-family:'Apple SD Gothic Neo','Pretendard'; font-weight:800; font-size:25px; min-width:170px; text-align:center; letter-spacing:-.5px;}
+  .gridcal{display:grid; grid-template-columns:repeat(7,1fr); gap:6px;}
+  .gcwd{text-align:center; font-size:12px; font-weight:700; color:var(--muted); padding:4px 0 6px;}
+  .gcwd.sun{color:var(--red);}
+  .gcell{min-height:104px; background:var(--card); border:1px solid var(--line); border-radius:11px; padding:7px 7px 8px; display:flex; flex-direction:column; gap:3px; overflow:hidden;}
+  .gcell.empty{background:transparent; border:none;}
+  .gcell.today{border-color:var(--red); border-width:1.5px;}
+  .gcell.past{opacity:.45;}
+  .gcell .gdn{font-size:12.5px; font-weight:700; color:var(--ink); margin-bottom:1px;}
+  .gcell.today .gdn{color:var(--red);}
+  .gcell .gdn.gsun{color:var(--red);}
+  .gentry{font-size:10.5px; line-height:1.25; font-weight:600; color:#fff; border-radius:6px; padding:3px 6px; cursor:pointer; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; transition:transform .06s;}
+  .gentry:hover{transform:translateX(1px);}
+  .gentry.star{box-shadow:inset 0 0 0 1.5px var(--red), inset 0 0 0 3px #fff;}
+  .gridnote{display:flex; flex-wrap:wrap; gap:12px; justify-content:center; padding:18px 0 4px; font-size:12px; color:var(--muted);}
+  .gridnote span{display:inline-flex; align-items:center; gap:5px;}
+  .gridnote i{width:11px; height:11px; border-radius:3px; display:inline-block;}
+  @media(max-width:640px){
+    .gridcal{gap:3px;}
+    .gcell{min-height:64px; padding:3px 3px 4px; border-radius:7px; gap:2px;}
+    .gcell .gdn{font-size:10px;}
+    .gentry{font-size:8px; padding:1px 3px; border-radius:4px;}
+    .gridhead .mlabel{font-size:20px; min-width:120px;}
+    .gridhead button{width:34px; height:34px; font-size:17px;}
+  }
 </style>
 </head>
 <body>
@@ -116,7 +146,8 @@
 
   <div class="tabs">
     <button class="tab on" data-view="week">이번 주</button>
-    <button class="tab" data-view="month">이번 달 전체</button>
+    <button class="tab" data-view="grid">🗓 월 달력</button>
+    <button class="tab" data-view="month">전체 목록</button>
   </div>
 
   <div class="chips" id="chips"></div>
@@ -144,11 +175,62 @@ const isStar=r=>STARS.includes(r.n);
 const isPop=r=>POPS.includes(r.n)||r.pop;
 const CATS={ "패션":"var(--c-fashion)","스니커":"var(--c-sneaker)","IP/캐릭터":"var(--c-ip)","게임":"var(--c-game)","F&B":"var(--c-fnb)","리빙":"var(--c-living)","기타":"var(--c-etc)" };
 const TODAY=(function(){var n=new Date();return new Date(n.getFullYear(),n.getMonth(),n.getDate());})();
-let view='week', filter=null;
+let view='week', filter=null, gridMonth=null;
 const WD=['일','월','화','수','목','금','토'];
 
 function dday(ds){const t=new Date(ds); const diff=Math.round((t-TODAY)/86400000); return diff<=0?'오늘':('D-'+diff);}
+
+function applyFilter(rows){
+  if(filter==='★') return rows.filter(isStar);
+  if(filter==='📍') return rows.filter(isPop);
+  if(filter) return rows.filter(r=>r.c===filter);
+  return rows;
+}
+
+function renderGrid(){
+  const cal=document.getElementById('cal'); cal.innerHTML='';
+  if(!gridMonth) gridMonth=new Date(TODAY.getFullYear(),TODAY.getMonth(),1);
+  const y=gridMonth.getFullYear(), mo=gridMonth.getMonth();
+  const rows=applyFilter(DATA.slice());
+  const byd={};
+  rows.forEach(r=>{const t=new Date(r.d); if(t.getFullYear()===y&&t.getMonth()===mo){(byd[t.getDate()]=byd[t.getDate()]||[]).push(r);}});
+
+  const head=document.createElement('div'); head.className='gridhead';
+  head.innerHTML=`<button id="gprev" aria-label="이전 달">‹</button><div class="mlabel">${y}년 ${mo+1}월</div><button id="gnext" aria-label="다음 달">›</button>`;
+  cal.appendChild(head);
+
+  const grid=document.createElement('div'); grid.className='gridcal';
+  WD.forEach((w,i)=>{const h=document.createElement('div'); h.className='gcwd'+(i===0?' sun':''); h.textContent=w; grid.appendChild(h);});
+  const first=new Date(y,mo,1).getDay();
+  const dim=new Date(y,mo+1,0).getDate();
+  for(let i=0;i<first;i++){const e=document.createElement('div'); e.className='gcell empty'; grid.appendChild(e);}
+  for(let d=1;d<=dim;d++){
+    const cdate=new Date(y,mo,d);
+    const isToday=cdate.getTime()===TODAY.getTime();
+    const isPast=cdate<TODAY;
+    const dow=cdate.getDay();
+    const cell=document.createElement('div');
+    cell.className='gcell'+(isToday?' today':'')+(isPast?' past':'');
+    let html=`<div class="gdn${dow===0?' gsun':''}">${d}</div>`;
+    (byd[d]||[]).forEach(r=>{
+      html+=`<div class="gentry${isStar(r)?' star':''}" style="background:${CATS[r.c]||'var(--c-etc)'}" data-i="${DATA.indexOf(r)}">${isPop(r)?'📍 ':''}${r.n}</div>`;
+    });
+    cell.innerHTML=html;
+    grid.appendChild(cell);
+  }
+  cal.appendChild(grid);
+
+  const note=document.createElement('div'); note.className='gridnote';
+  note.innerHTML=Object.keys(CATS).map(c=>`<span><i style="background:${CATS[c]}"></i>${c}</span>`).join('')+`<span><i style="box-shadow:inset 0 0 0 1.5px var(--red),inset 0 0 0 3px #fff;background:#ccc"></i>★ 주목</span>`;
+  cal.appendChild(note);
+
+  cal.querySelectorAll('.gentry').forEach(el=>el.onclick=()=>openModal(DATA[+el.dataset.i]));
+  document.getElementById('gprev').onclick=()=>{gridMonth=new Date(y,mo-1,1); renderGrid();};
+  document.getElementById('gnext').onclick=()=>{gridMonth=new Date(y,mo+1,1); renderGrid();};
+}
+
 function render(){
+  if(view==='grid'){ renderGrid(); return; }
   const cal=document.getElementById('cal'); cal.innerHTML='';
   let rows=DATA.slice();
   if(view==='week'){const end=new Date(TODAY); end.setDate(end.getDate()+7); rows=rows.filter(r=>{const t=new Date(r.d); return t>=TODAY && t<=end;});}
