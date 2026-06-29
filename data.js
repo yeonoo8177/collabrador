@@ -57,16 +57,6 @@ window.CAL_DATA = {
    "desc": "몰입형 체험 전시 + 한정 굿즈. 6/27~9/27."
   },
   {
-   "slug": "wigglewiggle-pokemon",
-   "n": "Wiggle Wiggle × Pokemon",
-   "c": "패션",
-   "w": "위글위글 공식몰",
-   "p": "후드 파자마 세트 89,000원 / 테리 홈 슬리퍼 32,000원",
-   "desc": "피카츄·이브이·잠만보·메타몽 디자인 13종",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/wigglewiggle-pokemon/card1.jpg",
-   "d": "2026-06-29"
-  },
-  {
    "d": "2026-07-01",
    "n": "A Ma Maniére × 나이키",
    "c": "스니커",
@@ -189,6 +179,16 @@ window.CAL_DATA = {
    "p": "랜덤 피규어 박스(5종) 47,900원 / 실리콘 파우치(3종) 각 24,900원",
    "desc": "메가박스 현장 한정",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/메가박스-주술회전/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "wigglewiggle-pokemon",
+   "n": "Wiggle Wiggle × Pokemon",
+   "c": "패션",
+   "w": "위글위글 공식몰",
+   "p": "후드 파자마 세트 89,000원 / 테리 홈 슬리퍼 32,000원",
+   "desc": "피카츄·이브이·잠만보·메타몽 디자인 13종",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/wigglewiggle-pokemon/card1.jpg",
    "till": "발매중"
   },
   {
