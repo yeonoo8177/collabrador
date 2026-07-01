@@ -74,16 +74,6 @@ window.CAL_DATA = {
    "desc": "K리그 × 디즈니 토이스토리5 부산 팝업. 포토존·한정 굿즈."
   },
   {
-   "slug": "amamaniere-nike",
-   "n": "아마마니에르 × 나이키",
-   "c": "패션",
-   "w": "나이키 SNKRS",
-   "p": "약 21만원 예상 (정가 150달러)",
-   "desc": "While You Were Sleeping 6색 팩",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/amamaniere-nike/card1.jpg",
-   "d": "2026-07-01"
-  },
-  {
    "d": "2026-07-02",
    "n": "젠레스 존 제로 × 더벤티",
    "c": "F&B",
@@ -509,6 +499,16 @@ window.CAL_DATA = {
    "p": "약 27만원 예상 (정가 200달러)",
    "desc": "블루/그린 · 블루/핑크 2종",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/bape-adidas/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "amamaniere-nike",
+   "n": "아마마니에르 × 나이키",
+   "c": "패션",
+   "w": "나이키 SNKRS",
+   "p": "약 21만원 예상 (정가 150달러)",
+   "desc": "While You Were Sleeping 6색 팩",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/amamaniere-nike/card1.jpg",
    "till": "발매중"
   },
   {
