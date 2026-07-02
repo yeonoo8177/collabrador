@@ -82,26 +82,6 @@ window.CAL_DATA = {
    "desc": "인기 게임 ZZZ × 더벤티 음료·컵 콜라보."
   },
   {
-   "slug": "emptybehavior-asics",
-   "n": "엠프티 비헤이비어 × 아식스",
-   "c": "패션",
-   "w": "아식스 공식몰·셀렉트 리테일",
-   "p": "약 21만원 예상 (해외 정가 135달러)",
-   "desc": "레슬링·발레에서 가져온 러플 스트라이프 로우 프로파일 스니커",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/emptybehavior-asics/card1.jpg",
-   "d": "2026-07-02"
-  },
-  {
-   "slug": "maru-thehyundai",
-   "n": "마루는강쥐 × 더현대서울",
-   "c": "기타",
-   "w": "더현대 서울 B2 아이코닉스퀘어",
-   "p": "인형키링 자장자장 마루는 22,000원 · 증사키링 18,000원 · 랜덤 미니 피규어 키링 단품 16,500원",
-   "desc": "더현대 서울 B2 아이코닉스퀘어",
-   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/maru-thehyundai/card1.jpg",
-   "d": "2026-07-02"
-  },
-  {
    "d": "2026-07-15",
    "n": "유니클로 UT × YOASOBI",
    "c": "IP/캐릭터",
@@ -312,6 +292,16 @@ window.CAL_DATA = {
    "till": "발매중"
   },
   {
+   "slug": "maru-thehyundai",
+   "n": "마루는강쥐 × 더현대서울",
+   "c": "기타",
+   "w": "더현대 서울 B2 아이코닉스퀘어",
+   "p": "인형키링 자장자장 마루는 22,000원 · 증사키링 18,000원 · 랜덤 미니 피규어 키링 단품 16,500원",
+   "desc": "더현대 서울 B2 아이코닉스퀘어",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/maru-thehyundai/card1.jpg",
+   "till": "발매중"
+  },
+  {
    "slug": "malbon-arsham",
    "n": "말본 골프 × 다니엘 아샴",
    "c": "패션",
@@ -409,6 +399,16 @@ window.CAL_DATA = {
    "p": "예정",
    "desc": "위버스샵 단독",
    "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/enhypen-epiphone/card1.jpg",
+   "till": "발매중"
+  },
+  {
+   "slug": "emptybehavior-asics",
+   "n": "엠프티 비헤이비어 × 아식스",
+   "c": "패션",
+   "w": "아식스 공식몰·셀렉트 리테일",
+   "p": "약 21만원 예상 (해외 정가 135달러)",
+   "desc": "레슬링·발레에서 가져온 러플 스트라이프 로우 프로파일 스니커",
+   "img": "https://raw.githubusercontent.com/yeonoo8177/collabrador-assets/main/emptybehavior-asics/card1.jpg",
    "till": "발매중"
   },
   {
